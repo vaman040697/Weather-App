@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::placeholder{
+    color: white;
+}
+
+
+
+
+.weathercont{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.212), rgba(0, 0, 0, 0.336)), url('sunny.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.weathercont{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.weathercont h1{
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: rgb(241, 241, 241);
+    padding: 10px;
+    border: 1px solid rgba(248, 248, 248, 0.411);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
+}
+
+.seo{
+    width: 100%;
+}
+
+.weathercont .seo input[type='text']{
+    padding: 15px 39px;
+    margin: 10px 8px;
+    outline: none;
+    border-radius: 20px;
+    width: 30%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.479);
+    transition: .5s;
+    background-color: transparent;
+}
+
+.seo button{
+    padding: 9px 15px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    color: white;
+    border: 1px solid white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.seo button:hover{
+    background: white;
+    color: grey;
+    transition: .5s;
+}
+
+.seo .fa-search{
+    color: white;
+    position: relative;
+    left: 45px;
+}
+
+.temp h4{
+    font-size: 45px;
+    color: white;
+    padding: 10px 10px 10px 40px;
+    margin: 20px 20px;
+}
+
+.temp p{
+    font-size: 16px;
+    color: white;
+    padding: 0px 10px 10px 40px;
+    margin: 9px 24px;
+}
+
+.wind p{
+    font-size: 16px;
+    color: white;
+    padding: 0px 10px 10px 40px;
+    margin: 0px 20px;
+}
+
+.forecast{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.table{
+    padding: 20px;
+    margin: 50px 9px 6px 0px;
+}
+
+ 
+.table th{
+    color: white;
+}
+
+.table td{
+    color: white;
+}
